@@ -1,0 +1,249 @@
+/*
+Theme Name: Lawman
+Description: Adds support for languages written in a Right To Left (RTL) direction.
+It's easy, just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+See: https://codex.wordpress.org/Right_to_Left_Language_Support
+*/
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+	margin-right: auto;
+	margin-left: 0.4375em;
+}
+
+blockquote {
+    padding: 0 2.041666666666667em 0 0;
+}
+
+blockquote:before {
+    left: unset;
+    right: 0;
+    top: -20px;
+    transform: rotate(180deg);
+}
+
+ul,
+ol {
+	margin: 0 1.647em 2.059em 0;
+}
+
+caption,
+th,
+td {
+	text-align: right;
+}
+
+.site .skip-link {
+	left: auto;
+	right: -9999em;
+}
+
+.site .skip-link:focus {
+	left: auto;
+	right: 6px;
+}
+
+.tagcloud a {
+	margin-right: 0;
+	margin-left: 0.1875em;
+}
+
+.page-links a,
+.page-links > span {
+	margin-right: auto;
+	margin-left: 0.3076923077em;
+}
+
+.page-links > .page-links-title {
+	padding-right: 0;
+	padding-left: 0.6153846154em;
+}
+
+.comment-list .children > li {
+	padding-right: 0.875em;
+	padding-left: 0;
+}
+
+.comment-author {
+	float: right;
+	margin-right: auto;
+	margin-left: 1.3125em;
+}
+
+.bypostauthor > article .fn:after {
+	left: auto;
+	right: 3px;
+}
+
+.comment-content ul,
+.comment-content ol {
+	margin: 0 1.25em 1.5em 0;
+}
+
+.comment-reply-title small a {
+	float: left;
+}
+
+.comment-reply-link {
+	margin-left: auto;
+	margin-right: 1.909090909090909em;
+}
+
+/*--------------------------------------------------------------
+# Homepage Sections
+--------------------------------------------------------------*/
+#thumbnail-post-slider,
+#recent .entry-container,
+.lifestyle-wrapper .entry-container,
+#fitness .entry-container,
+#category-post-slider .section-title,
+#featured-posts article .entry-container,
+.main-navigation ul ul a,
+.widget.widget_text,
+#editor-slider .entry-container {
+    text-align: right;
+}
+
+#thumbnail-post-slider .featured-image, 
+#editor-slider .featured-image {
+    float: right;
+    margin-right: 0;
+    padding-left: 30px;
+}
+
+.fitness-wrapper .hentry:last-child .featured-image, 
+.art-wrapper .hentry:first-child .featured-image, 
+.fashion-wrapper .hentry:last-child .featured-image, 
+.slider-wrapper .featured-image {
+    left: auto;
+    right: 0;
+}
+
+.fitness-wrapper .hentry:last-child .entry-container, 
+.fashion-wrapper .hentry:last-child .entry-container, 
+.art-wrapper .hentry:first-child .entry-container, 
+.slider-wrapper .entry-container {
+    float: left;
+    padding-right: 142px;
+    padding-left: 0;
+    text-align: right;
+}
+
+.post-categories {
+    margin: 0;
+    padding-right: 0;
+}
+
+.widget_recent_news ul li img,
+.widget_popular_post img, 
+.widget_latest_post img, 
+.widget_featured_post img {
+	float: right;
+	margin-right: 0;
+	margin-left: 20px;
+}
+
+.main-navigation .sub-menu svg,
+#masthead .main-navigation ul ul li a svg {
+	right: auto;
+	left: 15px;
+	-webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(90deg);
+}
+
+.main-navigation .social-icons a {
+	text-align: center;
+}
+
+.textwidget img {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.main-navigation svg.icon-down {
+	margin-left: 0;
+	margin-right: 5px;
+}
+
+[dir='rtl'] .slick-slide {
+    float: left;
+}
+
+.slick-slider .slick-track, 
+.slick-slider .slick-list {
+	direction: ltr;
+}
+
+/*--------------------------------------------------------------
+# Responsive
+--------------------------------------------------------------*/
+@media screen and (min-width: 567px) {
+	#top-navigation .icon-wrapper span a:after {
+	    left: 0;
+    	right: auto;
+	}
+	.fitness-wrapper .hentry:first-child .featured-image {
+	    left: auto;
+	    right: 0;
+	}
+	.fitness-wrapper .hentry:first-child .entry-container {
+	    float: left;
+	    padding-left: 0;
+	}
+	.archive-blog-wrapper article.has-post-thumbnail .featured-image {
+	    left: auto;
+	    right: 0;
+	}
+}
+
+@media screen and (min-width: 767px) {
+	#breaking-news .news-title {
+	    float: right;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	#recent .col-2 .hentry {
+	    float: right;
+	}
+	.recent-wrapper .hentry:first-child {
+	    padding-right: 0;
+    	padding-left: 60px;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.art-wrapper .hentry {
+		float: right;
+	}
+}
+
+
+@media screen and (min-width: 1025px) {
+	.main-navigation ul li:hover > ul, 
+	.main-navigation ul li.focus > ul {
+	    left: auto;
+	    right: 0;
+	}
+	.main-navigation ul ul li:hover > ul, 
+	.main-navigation ul ul li.focus > ul {
+	    left: auto;
+	    right: 100%;
+	}
+	#top-navigation .main-navigation ul {
+		float: right;
+	}
+	.icon-wrapper {
+		float: left;
+	}
+}

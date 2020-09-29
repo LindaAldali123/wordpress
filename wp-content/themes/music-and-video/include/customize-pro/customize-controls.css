@@ -1,0 +1,21 @@
+/**
+ * "Pro" theme section examples for the customizer by Justin Tadlock Copyright 2016
+ * Licensed under the GNU GPL, version 2 or later.
+ * Source: https://github.com/justintadlock/trt-customizer-pro
+ */
+
+#customize-controls .control-section-music_and_video .accordion-section-title:hover,
+#customize-controls .control-section-music_and_video .accordion-section-title:focus {
+	background-color: #fff;
+}
+
+.control-section-music_and_video .accordion-section-title .button {
+	margin-top:  -4px;
+	font-weight: 400;
+	margin-left: 8px;
+}
+
+.rtl .control-section-music_and_video .accordion-section-title .button {
+	margin-left:  0;
+	margin-right: 8px;
+}

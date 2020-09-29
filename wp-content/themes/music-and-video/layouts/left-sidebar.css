@@ -1,0 +1,20 @@
+/*
+ * Theme Name: score
+ *
+ * Layout: Content-Sidebar
+ *
+ * Learn more: https://developer.wordpress.org/themes/basics/template-files/
+*/
+
+#primary {
+    width: 70%;
+    float: right;
+}
+
+#secondary {
+	display: block !important;
+	width: 30%;
+	float: left;
+	padding: 0 0 0 60px;
+	margin-top: 20px;	
+}

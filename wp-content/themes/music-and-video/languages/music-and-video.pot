@@ -1,0 +1,375 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Music and Video\n"
+"POT-Creation-Date: 2020-08-20 22:23+0300\n"
+"PO-Revision-Date: 2020-08-20 22:23+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: 404.php:11
+msgid "Error 404"
+msgstr ""
+
+#: 404.php:13
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: attachment.php:31 single.php:28
+msgid " Previous"
+msgstr ""
+
+#: attachment.php:34 single.php:31
+msgid "Next "
+msgstr ""
+
+#. translators: 1: title.
+#: comments.php:39
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:45
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:70
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:47
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: footer.php:49
+msgid "Powered by WordPress"
+msgstr ""
+
+#: footer.php:53
+msgid "All rights reserved"
+msgstr ""
+
+#: footer.php:54
+msgid " Music and Video Theme by Seos Themes"
+msgstr ""
+
+#: framework/conveyor-ticker/conveyor-ticker.php:15
+msgid "Recent Posts Slider"
+msgstr ""
+
+#: framework/conveyor-ticker/conveyor-ticker.php:26
+msgid "Activate Recent Posts on Home Page"
+msgstr ""
+
+#: framework/conveyor-ticker/conveyor-ticker.php:39
+msgid "Activate on all pages without the home page"
+msgstr ""
+
+#: framework/conveyor-ticker/conveyor-ticker.php:54
+msgid "Number of Recent Posts"
+msgstr ""
+
+#: header.php:24
+msgid "Skip to content"
+msgstr ""
+
+#: include/back-to-top-button.php:12
+msgid "Back To Top Button Options"
+msgstr ""
+
+#: include/back-to-top-button.php:22
+msgid "Activate Back To Top Button"
+msgstr ""
+
+#: include/back-to-top-button.php:38
+msgid "Button Color"
+msgstr ""
+
+#: include/back-to-top-button.php:49
+msgid "Button Hover Color"
+msgstr ""
+
+#: include/back-to-top-button.php:55
+msgid "Button Background Color"
+msgstr ""
+
+#: include/back-to-top-button.php:66
+msgid "Button Background Hover Color"
+msgstr ""
+
+#: include/content-customizer.php:7 include/content-customizer.php:39
+msgid "One"
+msgstr ""
+
+#: include/content-customizer.php:8 include/content-customizer.php:40
+msgid "Two"
+msgstr ""
+
+#: include/content-customizer.php:9 include/content-customizer.php:41
+msgid "Three"
+msgstr ""
+
+#: include/content-customizer.php:23
+msgid "Content Options"
+msgstr ""
+
+#: include/content-customizer.php:34
+msgid "Homepage Post Columns"
+msgstr ""
+
+#: include/content-customizer.php:55
+msgid "Content max width"
+msgstr ""
+
+#: include/content-customizer.php:72
+msgid "Content Padding"
+msgstr ""
+
+#: include/content-customizer.php:86
+msgid "Hide sidebar and content on home page"
+msgstr ""
+
+#: include/customizer.php:42
+msgid "center center"
+msgstr ""
+
+#: include/customizer.php:43 include/customizer.php:166
+msgid "Real Size (Deactivate the image height.)"
+msgstr ""
+
+#: include/customizer.php:55 include/customizer.php:130
+msgid "Default"
+msgstr ""
+
+#: include/customizer.php:56 include/customizer.php:131
+msgid "All Pages"
+msgstr ""
+
+#: include/customizer.php:57 include/customizer.php:132
+msgid "Home Page"
+msgstr ""
+
+#: include/customizer.php:76
+msgid "Header Button 1 "
+msgstr ""
+
+#: include/customizer.php:77 include/customizer.php:101
+msgid "The button is activated after inserting text in the field"
+msgstr ""
+
+#: include/customizer.php:90
+msgid "Button 1 URL"
+msgstr ""
+
+#: include/customizer.php:100
+msgid "Header Button 2 "
+msgstr ""
+
+#: include/customizer.php:114
+msgid "Button 2 URL"
+msgstr ""
+
+#: include/customizer.php:124
+msgid "Activate Header Image"
+msgstr ""
+
+#: include/customizer.php:145
+msgid "Image Height"
+msgstr ""
+
+#: include/customizer.php:159
+msgid "Image Position"
+msgstr ""
+
+#: include/customizer.php:165
+msgid "Background Cover (center center)"
+msgstr ""
+
+#: include/customizer.php:177
+msgid "Dectivate Image Shadow:"
+msgstr ""
+
+#: include/header-top.php:21
+msgid "Menu"
+msgstr ""
+
+#: include/header-top.php:33 include/header-top.php:36
+msgid "header image"
+msgstr ""
+
+#: include/read-more-button.php:21
+msgid "Read More"
+msgstr ""
+
+#: include/template-functions.php:50
+msgid "Primary"
+msgstr ""
+
+#: include/template-functions.php:90
+msgid "Default Image 1"
+msgstr ""
+
+#: include/template-functions.php:109
+msgid "Sidebar"
+msgstr ""
+
+#: include/template-functions.php:111
+msgid "Add widgets here."
+msgstr ""
+
+#: include/template-functions.php:119
+msgid "Footer 1"
+msgstr ""
+
+#: include/template-functions.php:128
+msgid "Footer 2"
+msgstr ""
+
+#: include/template-functions.php:137
+msgid "Footer 3"
+msgstr ""
+
+#: include/template-functions.php:146
+msgid "Footer 4"
+msgstr ""
+
+#. translators: %s: post date.
+#: include/template-tags.php:33
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s /"
+msgstr ""
+
+#. translators: %s: post author.
+#: include/template-tags.php:49
+#, php-format
+msgctxt "post author"
+msgid "by %s /"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: include/template-tags.php:66
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of categories.
+#: include/template-tags.php:69
+#, php-format
+msgid "Posted in %1$s "
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: include/template-tags.php:73
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of tags.
+#: include/template-tags.php:76
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#. translators: %s: post title
+#: include/template-tags.php:86
+#, php-format
+msgid ""
+"<span class=\"dashicons dashicons-admin-comments\"></span> Leave a "
+"Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: include/template-tags.php:103 template-parts/content-page.php:41
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#. translators: %s: search query.
+#: search.php:26
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: template-parts/content-none.php:18
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:28
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:41
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:48
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:28 template-parts/content.php:72
+msgid "Pages:"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content.php:61
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Music and Video"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://seosthemes.com/music-and-video-wordpress-theme/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Music and Video is 2020 cleanmulti-purpose HTML5 Music and Video theme. "
+"Performance is important to us and Music and Video is easy to customize "
+"template, very fast and SEO friendly. Gutenberg Compatible, WooCommerce "
+"Compatible, Full Responsive, Recent Post Slider, Content Options, Header "
+"Options, Social Media Icons, Back To Top Button, Microdata, Custom Colors. "
+"The theme is excellent for a Music and Video, business and photography."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "seosbg"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://seosthemes.com/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Full Width Page"
+msgstr ""

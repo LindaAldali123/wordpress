@@ -1,0 +1,105 @@
+.s-sticky-title {
+	text-align: center;
+	width: 100%;
+	color: #C0C0C0;
+    font-size: 3vw;
+	position: relative;
+	z-index: 4;
+	padding-left: 10px;
+}
+.simple-marquee-container *{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	box-sizing:border-box;
+	vertical-align: top;
+}
+
+
+.simple-marquee-container .marquee-sibling {
+	padding: 0;
+	background: rgb(61, 61, 61);
+	width: 20%;
+	height: 45px;
+	line-height: 42px;
+	font-size: 12px;
+	font-weight: normal;
+	color: #ffffff;
+	text-align: center;
+	float: left;
+	left: 0;
+	z-index: 2000;
+}
+
+.simple-marquee-container .marquee-content-items li,
+.simple-marquee-container .absolute-slide,
+.simple-marquee-container .marquee-content-items li, .simple-marquee-container .marquee-content-items, .simple-marquee-container .marquee-1,
+.simple-marquee-container .marquee-2,
+.simple-marquee-container .marquee-3,
+.simple-marquee-container .marquee-4{
+	margin: 0 !important;
+	padding: 0;
+	max-width: 100%;padding-left: 0;
+    padding-right: 0;
+    margin: 0 auto !important;	white-space: nowrap;
+
+}
+.simple-marquee-container .marquee, .simple-marquee-container *[class^="marquee"] {
+	display: inline-block;
+	white-space: nowrap;
+	position:absolute;
+}
+
+
+
+.simple-marquee-container .marquee-content-items{
+
+    list-style-type: none;
+    padding-top: 12px;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 auto !important;
+    height: 45px;
+    position: relative;
+    width: 100%;
+    text-align: center;float: none;
+    right: 0;
+    left: 0;
+}
+
+.simple-marquee-container .marquee-content-items li{
+  display: inline-block;
+  color: #fff;
+ list-style-type: none;
+ width: 348px;
+
+}
+
+.simple-marquee-container .marquee-content-items li:after{
+	margin: 0 1em;
+}
+
+.simple-marquee-container img {
+	width: 348px;
+	height: 140px;
+	object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.simple-marquee-container .absolute-slide {
+	position: relative;
+z-index: 2;	
+overflow: hidden;
+}
+
+.absolute-slide span {
+	position: absolute;
+    font-size: 15px;
+    font-weight: 500;
+	padding: 10px;
+	width: 100%;
+	background-color: rgba(0,0,0,0.7);
+	color: #eee;
+	overflow: hidden;
+    text-align: center;	
+}

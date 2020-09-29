@@ -1,0 +1,278 @@
+/* start main rules */
+
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ddd;
+}
+
+
+
+/* end main rules */
+
+
+/* start main post */
+
+.home-page .main-post{
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.home-page .main-post h3{
+    margin: 0 0 10px;
+    font-weight: bold;
+    color: #777;
+}
+
+.home-page .main-post img{
+    display: block;
+    margin: 10px 0 10px;
+}
+
+.home-page .main-post .post-content{
+    line-height: 1.7;
+    color: #888;
+}
+
+.home-page .main-post i{
+    color: #999;
+}
+
+
+.home-page .post-pagination{
+    margin: 20px auto 30px;
+    text-align: center;
+}
+
+.home-page .post-pagination a{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.home-page .post-pagination a:first-of-type{
+    margin-right: 10px;
+}
+
+/* End main post */
+
+
+
+/* start single post */
+
+
+.post-page .main-post{
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.post-page .main-post h3{
+    margin: 0 0 10px;
+    font-weight: bold;
+    color: #777;
+}
+
+.post-page .main-post img{
+    display: block;
+    margin: 10px 0 10px;
+}
+
+.post-page .main-post .post-content{
+    line-height: 1.7;
+    color: #888;
+}
+
+.post-page .main-post i{
+    color: #999;
+}
+
+
+.post-page .post-pagination{
+    margin: 20px auto 30px;
+    text-align: center;
+}
+
+.post-page .post-pagination a{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.post-page .post-pagination a:first-of-type{
+    margin-right: 10px;
+}
+
+
+
+
+/* end single post */
+
+
+
+/* Start Comments */
+
+
+
+.comments-list ul,
+.comments-list ol{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.comments-count{
+    padding: 20px;
+    background-color: #e2e2e2;
+    font-size: 24px;
+    margin-top: 0;
+    font-weight: bold;
+    color: #909090;
+    border: 1px solid #dedede;
+
+}
+
+.comments-list  .comment img{
+    padding: 3px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.comments-list  .comment .comment-meta{
+    font-size: 12px;
+    color: #777;
+
+}
+
+.comments-list  .comment p{
+    margin-top: 8px;
+    color: #6f6f6f;
+
+}
+
+
+
+
+.comments-list  .comment .says{
+    display: none;
+}
+
+.comments-list > .comment{  /* level one selector */
+    background-color: #fff;
+    padding: 10px;
+    border: 10px solid #ddd;
+}
+
+.comments-list > .comment > .children > .comment {  /* level two selector */
+    padding: 10px;
+    background-color: #eee;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+}
+
+.comments-list > .comment > .children > .comment .comment { /* level three selector */
+    padding: 10px;
+    background-color: #ddd;
+    margin-top: 10px;
+    border: 1px solid #aaa;
+}
+
+
+.comment-respond label{
+    display: block;
+}
+
+.comment-respond input[type="text"],
+.comment-respond textarea{
+    height: 40px;
+    width: 500px;
+    max-width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.comment-respond textarea{
+    height: 200px;
+    resize: none;
+}
+
+
+.comment-respond .comment-reply-title{
+    font-weight: bold;
+    color: #9a9a9a;
+    text-align: center;
+    background-color: #e3e3e3;
+    padding: 15px;
+}
+
+.comment-respond .comment-reply-title ~ form{
+    background-color: #e3e3e3;
+    padding: 15px;
+}
+
+.userInfo{
+    margin: 10px 0;
+}
+
+/* End Comments */
+
+
+
+/* start pagenation */
+
+.pagenation-numbers .page-numbers{
+    display: inline-block;
+    background-color: #8e8e8e;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.pagenation-numbers .page-numbers.current{
+    background-color: #2980b9;
+}
+
+/* End pagenation */
+
+
+
+
+/* start sidebar linux */
+
+.sidebar-linux .widget{
+    background-color: #fff;
+    border: 1px solid #d8d8d8;
+    margin-bottom: 15px;
+}
+
+.sidebar-linux .widget-title{
+    margin: 0;
+    padding: 10px;
+    background-color: #42a4d0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.sidebar-linux .widget-content{
+    padding: 10px;
+    color: #969696;
+}
+
+
+
+
+/* end sidebar linux */
